@@ -34,8 +34,8 @@ export default class WorkerAttrToConversationPlugin extends FlexPlugin {
         ...attributes,
         conversations: {
           ...attributes.conversations,
-          conversation_attribute_5: workerAttributes.location,
-          conversation_attribute_6: workerAttributes.manager
+          conversation_attribute_9: workerAttributes.location,
+          conversation_attribute_10: workerAttributes.manager
         }
       };
 
